@@ -1,0 +1,126 @@
+:root{
+  --brand:#055999;
+}
+.logo {
+  width: 180px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: #055999;
+  margin-right: 15px;
+  border-radius: 5px;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show, .navbar-expand-lg .navbar-nav .nav-link:hover {
+  color: #fff !important;
+  background-color: var(--brand);
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: white;
+}
+
+.carousel-caption h5 {
+  font-size: 7vh;
+}
+
+.icon {
+  text-align: center;
+  font-size: 15vh;
+}
+
+.box {
+  background-color: rgb(194, 198, 214);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.box:hover {
+  background-color: transparent;
+  border: 1px solid var(--brand);
+}
+
+.box .btn {
+  background-color: var(--brand);
+  color: white;
+}
+
+.box .btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.team {
+  background: var(--brand);
+  padding: 50px 10px;
+  margin: 0;
+  color: #fff;
+  margin-top: 30px;
+}
+.team img {
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+
+.our-clients {
+  margin: 30px;
+}
+.our-clients h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.our-clients .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer {
+  background: rgb(24, 24, 24);
+  padding: 25px;
+}
+.footer .ourcontact {
+  color: white !important;
+}
+.footer .row {
+  color: grey;
+}
+.footer a {
+  text-decoration: none;
+  color: grey;
+}
+.footer .box {
+  background-color: transparent;
+  border: none;
+}
+
+.footer1 {
+  background: black;
+  color: grey;
+  padding: 25px;
+}
+.footer1 .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+.services-top {
+  background: #055999;
+  color: white;
+  padding: 15px 0px;
+}/*# sourceMappingURL=style.css.map */

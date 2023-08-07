@@ -1,0 +1,121 @@
+
+.logo{
+    width: 180px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: $brand;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show,.navbar-expand-lg .navbar-nav .nav-link:hover
+{
+    color: #fff !important;
+    background-color:$brand;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color: white;
+}
+.carousel-caption h5{
+    font-size: 6rem;
+}
+.icon{
+    text-align: center;
+    font-size: 15vh;
+}
+.box{
+background-color: rgb(194, 198, 214);
+padding: 20px;
+margin-bottom: 20px;
+border-radius: 5px;
+
+}
+.box:hover{
+    background-color: transparent;
+    border: 1px solid $brand;
+   
+   
+}
+.box .btn{
+    background-color: $brand;
+    color: white;
+
+}
+.box .btn:hover{
+    background-color: black;
+    color: white;
+
+}
+.team{
+    img{border-radius: 5px;margin-bottom: 25px;}
+
+    background: $brand;
+
+    padding: 50px 10px;
+    margin: 0;
+    color: #fff;
+    margin-top: 30px;
+}
+.our-clients{
+    margin: 30px ;
+
+    h2{font-size: 3rem;
+    font-weight: bold;}
+   .row{
+    @include flex(center,center)
+   }
+   
+}
+.footer{
+    background: rgb(24, 24, 24);
+    padding:25px;
+    .ourcontact{
+        color: white !important;
+    }
+   .row{color:grey ;}
+  
+
+   a{text-decoration: none;color:grey ;}
+   .box{background-color: transparent;border: none;}
+
+
+}
+.footer1{
+    background:black ;
+    .flex{
+    @include flex(space-between,center);
+gap: 20px;}
+    color:blue ;
+    padding: 25px;
+}
+
+// services page starts
+.services-top{
+    background:$brand;
+    color: white;
+  
+}
+.services-content{
+    .r-2{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+        .grid{
+            grid-template-columns: auto auto;
+        }
+        .b-1{grid-column:1;grid-row: 1;}
+        .b-1{grid-column:2;grid-row: 1;}
+        .b-1{grid-column:3;grid-row: 1;}
+        .b-1{grid-column:1;grid-row: 2;}
+        .b-1{grid-column:2;grid-row: 2;}
+        .b-1{grid-column:3;grid-row: 2;}
+        
+    }
+}
+
+   
+   
+
+
+
+// serrvices page ends 

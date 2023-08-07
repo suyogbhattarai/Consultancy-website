@@ -1,0 +1,10 @@
+@mixin flex($jc,$ai){
+    display: flex;
+    justify-content:$jc;
+    align-items: $ai;
+}
+@mixin res($min,$max){
+    @media(max-width:$max) {
+        @content;
+    }
+}
